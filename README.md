@@ -1,6 +1,6 @@
-🔗 pipex – The Magic of Pipes
+# 🔗 pipex – The Magic of Pipes
 
-For my fifth project at Hive Helsinki, I built pipex, a program that mimics the shell’s piping behavior. 🚰 It takes four arguments:
+ For my fifth project at Hive Helsinki, I built pipex, a program that mimics the shell’s piping behavior. 🚰 It takes four arguments:
 
     file1 (input file)
 

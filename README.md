@@ -1,4 +1,4 @@
-6th project.
+5th project.
 
 Your program will be executed as follows:
 ./pipex file1 cmd1 cmd2 file2

@@ -1,16 +1,25 @@
-5th project.
+🔗 pipex – The Magic of Pipes
 
-Your program will be executed as follows:
-./pipex file1 cmd1 cmd2 file2
-It must take 4 arguments: file1 and file2 are file names.
+For my fifth project at Hive Helsinki, I built pipex, a program that mimics the shell’s piping behavior. 🚰 It takes four arguments:
 
-cmd1 and cmd2 are shell commands with their parameters.
+    file1 (input file)
 
-It must behave exactly the same as the shell command below:
+    cmd1 (first command)
+
+    cmd2 (second command)
+
+    file2 (output file)
+
+It works just like this shell command:
+
 < file1 cmd1 | cmd2 > file2
 
-./pipex infile "ls -l" "wc -l" outfile
-Should behave like: < infile ls -l | wc -l > outfile
+For example:
 
-./pipex infile "grep a1" "wc -w" outfile
-Should behave like: < infile grep a1 | wc -w > outfile
+./pipex infile "ls -l" "wc -l" outfile
+
+should behave like:
+
+< infile ls -l | wc -l > outfile
+
+This project was an awesome hands-on way to understand file descriptors, pipes, and process management in C. ⚡
